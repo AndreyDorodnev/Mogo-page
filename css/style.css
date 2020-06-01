@@ -73,7 +73,7 @@ body {
 
 .header {
   width: 100%;
-  background: url("../../img/header-bg.jpg") top center no-repeat; }
+  background: url("./../img/header-bg.jpg") top center no-repeat; }
   .header .top-menu {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -614,7 +614,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: url("../img/icons/arrow.svg") 0 0 no-repeat !important;
+  background: url("./img/icons/arrow.svg") 0 0 no-repeat !important;
   width: 22px;
   height: 22px; }
 
@@ -659,7 +659,7 @@ body {
 .design {
   padding-top: 112px;
   position: relative;
-  background: url("../../img/design-bg.jpg") center 30% no-repeat;
+  background: url("./../img/design-bg.jpg") center 30% no-repeat;
   background-position: 0 31%; }
   .design::after {
     content: "";
@@ -1189,7 +1189,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 390px 390px;
-    grid-template-areas: "img1 img2 img5 img6 " "img3 img4 img5 img7";
+    grid-template-areas: "img1 img2 img5 img6 "
+ "img3 img4 img5 img7";
     overflow: hidden; }
     .works .gallery .img1 {
       grid-area: img1; }
@@ -1275,7 +1276,9 @@ body {
   .works .gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40vh 40vh 40vh;
-    grid-template-areas: "img1 img2 img7" "img3 img3 img4" "img6 img5 img5"; }
+    grid-template-areas: "img1 img2 img7"
+ "img3 img3 img4"
+ "img6 img5 img5"; }
     .works .gallery .work-img {
       max-width: 100%; } }
 
@@ -1393,7 +1396,7 @@ body {
   padding-top: 108px;
   padding-bottom: 60px;
   position: relative;
-  background: url("../../img/clients/clients-bg.jpg") top center no-repeat; }
+  background: url("./../img/clients/clients-bg.jpg") top center no-repeat; }
   .clients::after {
     content: "";
     background-color: rgba(255, 255, 255, 0.85);
@@ -1701,7 +1704,7 @@ body {
   padding-top: 50px;
   padding-bottom: 58px;
   position: relative;
-  background: url("../../img/map-bg.jpg") no-repeat;
+  background: url("./../img/map-bg.jpg") no-repeat;
   background-position-x: 0;
   background-position-y: 66%; }
   .map::after {
